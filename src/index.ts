@@ -272,6 +272,17 @@ export class GProgress {
   private _random = (max: number, min = 0) => {
     return Math.random() * (max - min) + min;
   };
+
+  dispose = () => {
+    this._eventMap.clear();
+    this.hide();
+    if (this._incTimer) {
+      clearInterval(this._incTimer);
+    }
+    if (this._countToTimer) {
+      clearInterval(this._countToTimer);
+    }
+  };
 }
 
 const loadingImage =

@@ -1,5 +1,5 @@
 {
-  "name": "gprogress",
+  "name": "@haorangao/gprogress",
   "version": "1.0.0",
   "description": "纯JS进度插件",
   "main": "lib/index.umd.js",
@@ -18,7 +18,7 @@
     "src/",
     "lib/"
   ],
-  "author": "G",
+  "author": "haorangao",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
