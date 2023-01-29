@@ -1,0 +1,37 @@
+{
+  "name": "gprogress",
+  "version": "1.0.0",
+  "description": "纯JS进度插件",
+  "main": "lib/index.umd.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "compile": "tsc",
+    "build": "rollup --config"
+  },
+  "keywords": [
+    "gprogress",
+    "progress"
+  ],
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "author": "G",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "jest": "^27.3.1",
+    "rollup": "^2.60.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "@babel/preset-typescript": "^7.16.0"
+  }
+}
