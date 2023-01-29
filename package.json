@@ -1,6 +1,6 @@
 {
   "name": "@haorangao/gprogress",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "纯JS进度插件",
   "main": "lib/index.umd.js",
   "module": "lib/index.esm.js",
